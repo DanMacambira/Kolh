@@ -1,0 +1,23 @@
+.class-example {
+    /* First comes the display properties */
+    display: flex;
+    flex-direction: row;
+
+    /* Adjust width and height according to display style */
+    width: auto;
+    height: auto;
+
+    /* Then comes the margins and paddings: Always set to 0 */
+    margin: 0;
+    padding: 0;
+
+    /* Finally comes the aesthetics */
+    background-color: #A8D0E6;
+    color: white;
+
+    /* Other unknown features */
+    overflow: hidden;
+    
+    /* Always keep a border argument to see everything */
+    border: 1px solid brown;
+}

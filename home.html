@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+    <!-- WOULD BE NICE TO SOLVE THE GAME USING MATHS OR AI TO MAKE SURE ITS BALANCED, 
+        I.E. NO CLEAR WINNING STRATEGIES AND NO BORING WINNING STRATEGIES, 
+        WE WANT SOME BLUFFING, SOME HIDDING, SOME ASYMMETRIC INFORMATION -->
+
+    <head>
+        <meta charset="="utf-8>
+        <title>Home</title>
+        <link href="CSS_components/StyleSheet.css" rel="stylesheet">
+        <link href="CSS_components/PlayButtons.css" rel="stylesheet">
+        <link href="CSS_components/TopNav.css" rel="stylesheet">
+        <link href="CSS_components/Footer.css" rel="stylesheet">
+        <link href="https://use.typekit.net/hyr5ahg.css" rel="stylesheet">
+        <style>
+
+            .home-page-container {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: stretch;
+
+                margin-top: 11%;
+                margin-bottom: 11%;
+
+
+                /* border: 1px solid brown; */
+            }
+
+            .home-page-container .text {
+                flex: 3 1 auto;
+
+                margin: 0;
+                padding-left: 7%;
+
+                /* border: 1px solid burlywood; */
+            }
+
+            .home-page-container .text .title {
+                margin: 0;
+                padding-left: 0;
+
+                font-size: 5em;
+                font-weight: 300;
+
+                /* border: 1px solid cadetblue; */
+            }
+
+            .home-page-container .text .quote {
+                margin: 0;
+                padding-left: 50px;
+
+                font-style: italic;
+                font-size: 1.7em;
+                font-weight: 300;
+
+                /* border: 1px solid chartreuse; */
+            }
+
+            .buttons {
+                flex: 1 1 auto;
+
+                margin-top: 0;
+                padding: 4%;
+
+                /* border: 1px solid rgb(225, 0, 255); */
+            }
+        </style>
+
+    </head>
+
+    <body>    
+        <!-- Top Navigation Bar: Potentially use the <nav></nav> as this is a built in navigation html tag -->
+        <div class="topnav">
+            <a class="active left" href=./home.html>Kohl!</a>
+            <a class="left" href=./rules.html>Rules</a>
+            <a class="left" href=./leaderboards.html>Leaderbaords</a>
+            <a class="left" href=./about.html>About</a>
+            <a class="left" href=./contact.html>Contact Us</a>
+
+            <a class="languages active right" href=./home.html>EN</a>
+            <a class="languages right" href=./home.html>FR</a>
+
+            <a class="login right" href=''>Log in</a>
+            <a class="signup right" href=''>Sign up</a>
+        </div>
+
+        <!-- Main Content -->
+        <div class="home-page-container">
+
+                <div class="text">
+
+                    <div>
+                        <h1 class="title">Kohl!</h1>
+                    </div>
+                    
+                    <div class="quote">
+                        <p>"The best card game in the world"</p>
+                        <p>Gengis Kohl</p>
+                    </div>
+
+                </div>
+
+
+                <div class="buttons">
+                    <div class="container">
+                        <a href="" class="btn effect01" target="_blank"><span>Local Game</span></a>
+                    </div>
+
+                    <div class="container">
+                        <a href="" class="btn effect01" target="_blank"><span>Online Game</span></a>
+                    </div>
+                </div>
+                
+        </div>
+
+        <!-- Footer -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+        <footer class="footer-basic">
+            <div class="social">
+                <a href="#"><i class="icon ion-social-instagram"></i></a>
+                <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                <a href="#"><i class="icon ion-social-twitter"></i></a>
+                <a href="#"><i class="icon ion-social-facebook"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="./home.html">Home</a></li>
+                <li class="list-inline-item"><a href="./rules.html">Rules</a></li>
+                <li class="list-inline-item"><a href="./about.html">About</a></li>
+                <li class="list-inline-item"><a href="./contact.html">Contact Us</a></li>
+                <li class="list-inline-item"><a href="./terms.html">Terms</a></li>
+                <li class="list-inline-item"><a href="./privacy_policy.html">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Kohl © 2021</p>
+        </footer>
+
+    </body>
+</html>
