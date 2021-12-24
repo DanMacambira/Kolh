@@ -2,7 +2,6 @@ Dec 23 2021:
 Fixed home page display and organization
 
 To do:
-- Add Git for version control
 - File Naming
 - Top Navigation:
     - Transform it into a flex system
