@@ -1,3 +1,11 @@
+:root {
+    --dark_blue: #24305E;
+    --blue: #374785;
+    --light_blue: #A8D0E6;
+    --red: #F76C6C;
+    --yellow: #F8E9A1;
+}
+
 body {
     display: flex; 
     flex-direction: column;

@@ -1,7 +1,7 @@
 .topnav {
     width:100%;
     overflow: hidden;
-    background-color: #24305E;
+    background-color: var(--dark_blue);
 }
 
 .topnav .left {
@@ -27,6 +27,6 @@
 }
   
 .topnav a.active {
-    background-color: #F76C6C;
+    background-color: var(--red);
     color: white;
 }

@@ -4,7 +4,7 @@
     margin-top:auto;
     padding: 4%;
 
-    background-color:#24305E;
+    background-color: var(--dark_blue);
 
     color: #f2f2f2;
     
