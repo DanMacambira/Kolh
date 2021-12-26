@@ -1,6 +1,3 @@
-Dec 23 2021:
-Fixed home page display and organization
-
 To do:
 - File Naming
 - Top Navigation:
