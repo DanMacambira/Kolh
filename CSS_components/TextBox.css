@@ -24,6 +24,23 @@
    
 }
 
+.container-text .text-box h2 {
+    font-size: 1.6rem;
+}
+
 .container-text .text-box h3 {
     margin-top: 40px;
 }
+
+.container-text .text-box p {
+    text-align: justify;
+    text-justify: inter-word;
+
+    line-height: 1.6;
+}
+
+.container-text .text-box p + p {
+    margin-top: 25px;
+}
+
+
